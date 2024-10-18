@@ -6,7 +6,6 @@ phases:
       - echo Installing NGINX
       - sudo apt-get update
       - sudo apt-get install nginx -y
-      - sudo systemctl restart nginx
   build:
     commands:
       - echo Build started on `date`
